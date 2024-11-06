@@ -1,0 +1,29 @@
+.talv_pealkiri {
+    color: #071108;
+    margin:auto;
+    width: 1500px;
+    height: 400px;
+    background-image: url('dubaipilt1.avif');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reis_pealkiri {
+    width: 500px;
+    padding: 10px;
+    background-color: #D3D3D3;
+    font-size: 2em;
+}
+
+.reisi_tekst {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    background-color: #E5E4E2;
+}
+
+.peamine{
+    margin-left: 250px;
+}
