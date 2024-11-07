@@ -1,14 +1,16 @@
 .talv_pealkiri {
-    color: #071108;
-    margin:auto;
-    width: 1500px;
-    height: 400px;
-    background-image: url('dubaipilt1.avif');
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url('/assets/images/dubaipilt1.avif');
 }
+
+.kevad_pealkiri{
+    background-image: url('/assets/images/dubaipilt1.avif');
+}
+
+.talv_pealkiri{
+    background-image: url('/assets/images/dubaipilt1.avif');
+
+}
+
 
 .reis_pealkiri {
     width: 500px;
