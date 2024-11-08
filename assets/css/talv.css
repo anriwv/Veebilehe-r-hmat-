@@ -1,0 +1,51 @@
+body, html {
+    margin:0;
+    padding: 0;
+}
+
+.talv_pealkiri {
+    background-image: url('/assets/images/dubaipilt1.avif');
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reis_jutt {
+    width: 500px;
+    padding: 10px;
+    background-color: #D3D3D3;
+}
+
+.reis_pealkiri {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.reisi_tekst {
+    width: 500px;
+    height: 470px;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size:large;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    width: 1000px;
+    margin-left: 200px;
+    background-color: #D3D3D3;
+}
+
+.galerii {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.galerii_pilt {
+    width:235px;
+}
