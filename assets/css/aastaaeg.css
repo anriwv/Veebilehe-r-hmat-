@@ -1,5 +1,13 @@
 .talv_pealkiri {
     background-image: url('/assets/images/dubaipilt1.avif');
+    color: #071108;
+    margin:auto;
+    width: 1500px;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .kevad_pealkiri{
