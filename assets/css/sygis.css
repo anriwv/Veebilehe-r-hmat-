@@ -1,0 +1,47 @@
+body {
+    background-color: whitesmoke;
+    color: #8B4513;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D2691E;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main div {
+    border-bottom: 2px solid darkolivegreen;
+    border-bottom-style: dashed;
+    padding: 1em;
+}
+
+footer {
+    background-color: #D2691E;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.autumn-image {
+    opacity: 40%;
+    scale: 0.65;
+    object-fit: contain;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
