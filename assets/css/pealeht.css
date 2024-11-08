@@ -16,6 +16,21 @@
     transition: transform .2s ease;
 }
 
+.reisid {
+    font-size: 70px;
+    color: #4a4a4a;
+    text-shadow: -3px 1px #FF555A,
+               -6px 2px #44ccff,
+               -9px 3px #9fff55;
+    transition: text-shadow 0.3s ease;
+}
+
+.reisid:hover {
+    text-shadow: -5px 5px #FF555A,
+                -10px 10px #44ccff,
+                -15px 15px #9fff55;
+}
+
 
 a.sygis {
     background: #FFE0E1;
@@ -40,13 +55,13 @@ a:hover {
 }
 
 a.sygis:hover {
-    background: #FF575A;
+    background: #FF555A;
 }
 
 a.talv:hover {
-    background: #429AFF;
+    background: #44ccff;
 }
 
 a.kevad:hover {
-    background: #78FF71;
+    background: #9fff55;
 }
