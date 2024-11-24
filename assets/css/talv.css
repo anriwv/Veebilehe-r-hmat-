@@ -1,23 +1,41 @@
 body, html {
     margin:0;
     padding: 0;
+    background-color: #D5FFFF;
 }
 
+
+
 .talv_pealkiri {
-    background-image: url('/assets/images/dubaipilt1.avif');
+    background-image: url('/assets/images/talv/winter-4680354_1920.jpg');
     margin: 0;
     width: 100%;
     height: 400px;
-    background-size: cover;
+    background-size: auto;
+    background-position: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.pealkiri {
+    position: relative;
+    left: -30%; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.värviline_kast {
+    width: 100%;
+    height: 100px;
+    background-color: lightblue; /* Light blue background */
+  }
+
 .reis_jutt {
     width: 500px;
     padding: 10px;
-    background-color: #D3D3D3;
 }
 
 .reis_pealkiri {
@@ -34,11 +52,17 @@ body, html {
     background-color: white;
 }
 
+.keha {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
 .container{
     display: flex;
-    width: 1000px;
-    margin-left: 200px;
-    background-color: #D3D3D3;
+    width: 994px;
+    background-color: #dee2e6;
+    padding: 10px;
 }
 
 .galerii {
@@ -48,4 +72,26 @@ body, html {
 
 .galerii_pilt {
     width:235px;
+}
+
+.empty {
+    width: 100%;
+    height: 30px;
+    background-color: #D5FFFF;
+}
+
+footer {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.lõpp {
+    width: 100%;
+    height: 80px;
+    background-color: #D5FFFF;
 }
