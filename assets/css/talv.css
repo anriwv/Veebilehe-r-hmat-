@@ -30,12 +30,27 @@ body, html {
 .värviline_kast {
     width: 100%;
     height: 100px;
-    background-color: lightblue; /* Light blue background */
+    background-color: lightblue;
   }
 
+@media (min-width: 1000px) {
+  .kast {
+    display: grid;
+    grid-auto-flow: column; /* Ensures items are placed in a single row */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+  }
+}
+
 .reis_jutt {
+    margin:auto;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: top;
     width: 500px;
+    height: 566px;
     padding: 10px;
+
 }
 
 .reis_pealkiri {
@@ -44,34 +59,21 @@ body, html {
 }
 
 .reisi_tekst {
-    width: 500px;
-    height: 470px;
-    padding-top: 10px;
-    padding-left: 5px;
+    height: 524px;
     font-size:large;
     background-color: white;
 }
 
-.keha {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-}
-
-.container{
-    display: flex;
-    width: 994px;
-    background-color: #dee2e6;
-    padding: 10px;
-}
-
 .galerii {
-    display:flex;
-    flex-wrap: wrap;
+    display:inline-block;
+    width: 500px;
+    height: 566px;
+    padding: 10px;
+    background-color: gray;
 }
 
 .galerii_pilt {
-    width:235px;
+    width:248px;
 }
 
 .empty {
