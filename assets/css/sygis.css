@@ -39,7 +39,7 @@ footer a {
 
 .autumn-image {
     opacity: 40%;
-    scale: 0.65;
+    transform: scale(0.65);
     object-fit: contain;
     margin: 0 auto;
     width: auto;
