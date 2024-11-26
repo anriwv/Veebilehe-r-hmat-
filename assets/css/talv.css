@@ -8,11 +8,10 @@ body, html {
 
 .talv_pealkiri {
     background-image: url('/assets/images/talv/winter-4680354_1920.jpg');
-    margin: 0;
     width: 100%;
     height: 400px;
-    background-size: auto;
-    background-position: 10%;
+    background-size: initial;
+    background-position: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +19,6 @@ body, html {
 
 .pealkiri {
     position: relative;
-    left: -30%; 
     background-color: rgba(0, 0, 0, 0.5); 
     color: white; 
     padding: 10px; 
@@ -33,19 +31,11 @@ body, html {
     background-color: lightblue;
   }
 
-@media (min-width: 1000px) {
-  .kast {
-    display: grid;
-    grid-auto-flow: column; /* Ensures items are placed in a single row */
-    justify-content: center; /* Centers items horizontally */
-    align-items: center; /* Centers items vertically */
-  }
-}
 
 .reis_jutt {
     margin:auto;
-    background-color: gray;
     display: inline-block;
+    background-color: lightblue;
     vertical-align: top;
     width: 500px;
     height: 566px;
@@ -69,7 +59,7 @@ body, html {
     width: 500px;
     height: 566px;
     padding: 10px;
-    background-color: gray;
+    background-color: lightblue;
 }
 
 .galerii_pilt {
@@ -97,3 +87,68 @@ footer {
     height: 80px;
     background-color: #D5FFFF;
 }
+
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.alg {
+    background-color: lightgray;
+}
+
+.hotell {
+    font-size: 30px;
+    background-color: teal;
+    color: rgba(255, 255, 255, 0.965);
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 1s;
+}
+
+
+.hotell:hover {
+    color: white;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lennuk {
+    font-size: 100px; 
+    margin: 0;
+    display: inline-block;
+}
+
+.lend {
+    display: block;
+}
+
+.lend_tekst {
+    text-align: center;
+}
+
+@media (max-width: 520px) {
+    .talv_pealkiri {
+        width: 520px;
+    }
+    .värviline_kast {
+        width: 520px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .kast {
+      display: grid;
+      grid-auto-flow: column; 
+      justify-content: center; 
+      align-items: center; 
+    }
+  }
