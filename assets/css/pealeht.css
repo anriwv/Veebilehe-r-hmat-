@@ -19,16 +19,16 @@
 .reisid {
     font-size: 70px;
     color: #4a4a4a;
-    text-shadow: -3px 1px #FF555A,
-               -6px 2px #44ccff,
-               -9px 3px #9fff55;
+    text-shadow: 0 0 ,
+                0 0 ,
+                0 0 ;
     transition: text-shadow 0.3s ease;
 }
 
 .reisid:hover {
-    text-shadow: -5px 5px #FF555A,
-                -10px 10px #44ccff,
-                -15px 15px #9fff55;
+    text-shadow: -5px 1px #FF555A,
+                -10px 4px #44ccff,
+                -15px 8px #9fff55;
 }
 
 
