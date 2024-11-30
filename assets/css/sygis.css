@@ -19,7 +19,7 @@ header {
 main div {
     border-bottom: 2px solid darkolivegreen;
     border-bottom-style: dashed;
-    padding: 1em;
+    padding: 1em 1em 3em 2em;
 }
 
 footer {
@@ -30,11 +30,6 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-footer a {
-    color: white;
-    text-decoration: underline;
 }
 
 .autumn-image {
