@@ -4,6 +4,9 @@ body, html {
     background-color: #D5FFFF;
 }
 
+.kast{
+    text-align: center;
+}
 
 .talv_pealkiri {
     background-image: url('/assets/images/talv/winter-4680354_1920.jpg');
@@ -126,6 +129,18 @@ th, td {
     font-size: 50px;
 }
 
+
+footer {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
 @media (max-width: 520px) {
     .talv_pealkiri {
         width: 520px;
@@ -142,14 +157,4 @@ th, td {
         justify-content: center; 
         align-items: center; 
     }
-}
-
-footer {
-    background-color: lightblue;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
