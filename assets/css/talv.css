@@ -77,15 +77,6 @@ body, html {
     background-color: #D5FFFF;
 }
 
-footer {
-    background-color: lightblue;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
 
 .lõpp {
     width: 100%;
@@ -135,13 +126,23 @@ table {
     .värviline_kast {
         width: 520px;
     }
-  }
+}
 
-  @media (min-width: 1000px) {
+@media (min-width: 1000px) {
     .kast {
-      display: grid;
-      grid-auto-flow: column; 
-      justify-content: center; 
-      align-items: center; 
+        display: grid;
+        grid-auto-flow: column; 
+        justify-content: center; 
+        align-items: center; 
     }
-  }
+}
+
+footer {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
