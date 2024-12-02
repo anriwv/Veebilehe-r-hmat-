@@ -17,20 +17,6 @@ header {
 }
 
 
-footer {
-    background-color: #D2691E;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
 .country-block {
     display: flex;
     flex-direction: row;
@@ -73,4 +59,18 @@ footer a {
 
 .country-block .country-images img:hover {
         filter: blur(0px);
+}
+
+footer {
+    background-color: #D2691E;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
