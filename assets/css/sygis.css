@@ -6,15 +6,6 @@ body {
     padding: 0;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    max-width: 1100px;
-    margin: auto;
-    padding: 1em;
-}
-
-
 header {
     background-color: #D2691E;
     color: white;
@@ -26,54 +17,6 @@ header {
 }
 
 
-.country-block {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 20px;
-
-    border-bottom: 2px solid darkolivegreen;
-    border-bottom-style: dashed;
-    padding: 1em 1em 3em 2em;
-}
-
-.title-block {
-    flex: 1;
-}
-
-.info-block {
-    font-size: 1.1em;
-    flex: 2;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 1em;;
-    background-color: rgba(245, 222, 179, 0.1);
-    border: 1px solid #8B4513;
-    border-radius: 5px;
-}
-
-/** Gallery **/
-.country-images {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.country-images img {
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: 5%;
-    filter: blur(3px);
-}
-
-
-.country-images img:hover {
-    filter: blur(0px);
-}
-/** Gallery **/
-
-
-/** footer **/
 footer {
     background-color: #D2691E;
     text-align: center;
@@ -88,27 +31,46 @@ footer a {
     text-decoration: none;
 }
 
+.country-block {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+    border-bottom: 2px solid darkolivegreen;
+    border-bottom-style: dashed;
+    padding: 1em 1em 3em 2em;
+}
+
+.country-block title-block {
+    flex: 1;
+}
 
 
-@media (max-width: 900px) {
-    .main{
-        width: 75%;
-        margin: 0 auto;
-    }
+.country-block .info-block {
+    flex: 2;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(245, 222, 179, 0.1);
+    padding: 10px;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+}
+
+.country-block .country-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     
-    .country-block {
-        flex-direction: column;
-        padding: 1em;
-        margin: 0 auto;
-    }
+}
 
-    .info-block, .country-images {
-        width: 75%;
-        margin: 0 auto;
-    }
+.country-block .country-images img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    filter: blur(3px);
+}
 
-    .country-images img {
-        margin: 0 auto;
-        padding: 1em 0 1em 0;
-    }
+
+.country-block .country-images img:hover {
+        filter: blur(0px);
 }

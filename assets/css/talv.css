@@ -4,9 +4,7 @@ body, html {
     background-color: #D5FFFF;
 }
 
-.kast{
-    text-align: center;
-}
+
 
 .talv_pealkiri {
     background-image: url('/assets/images/talv/winter-4680354_1920.jpg');
@@ -19,7 +17,6 @@ body, html {
     align-items: center;
 }
 
-
 .pealkiri {
     position: relative;
     background-color: rgba(0, 0, 0, 0.5); 
@@ -27,7 +24,6 @@ body, html {
     padding: 10px; 
     border-radius: 5px; 
 }
-
 
 .värviline_kast {
     width: 100%;
@@ -47,12 +43,10 @@ body, html {
 
 }
 
-
 .reis_pealkiri {
     font-size: 2em;
     font-weight: bold;
 }
-
 
 .reisi_kirjeldus {
     height: 524px;
@@ -64,7 +58,6 @@ body, html {
     margin: 0;
 }
 
-
 .galerii {
     display:inline-block;
     width: 500px;
@@ -73,17 +66,25 @@ body, html {
     background-color: lightblue;
 }
 
-
 .galerii_pilt {
     width:248px;
     height: 186px;
 }
 
-
 .empty {
     width: 100%;
     height: 30px;
     background-color: #D5FFFF;
+}
+
+footer {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .lõpp {
@@ -92,22 +93,20 @@ body, html {
     background-color: #D5FFFF;
 }
 
-.alg {
-    background-color: lightgray;
-}
-
-
-table {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 th, td {
     border: 2px solid black;
     padding: 8px;
     text-align: center;
 }
 
+.alg {
+    background-color: lightgray;
+}
+
+table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .emoji{
     font-size: 99px; 
@@ -129,18 +128,6 @@ th, td {
     font-size: 50px;
 }
 
-
-footer {
-    background-color: lightblue;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-
 @media (max-width: 520px) {
     .talv_pealkiri {
         width: 520px;
@@ -150,11 +137,11 @@ footer {
     }
   }
 
-@media (min-width: 1000px) {
+  @media (min-width: 1000px) {
     .kast {
-        display: grid;
-        grid-auto-flow: column; 
-        justify-content: center; 
-        align-items: center; 
+      display: grid;
+      grid-auto-flow: column; 
+      justify-content: center; 
+      align-items: center; 
     }
-}
+  }
