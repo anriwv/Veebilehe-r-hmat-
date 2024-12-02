@@ -1,0 +1,148 @@
+body, html {
+    margin:0;
+    padding: 0;
+    background-color: #D5FFFF;
+}
+
+
+
+.talv_pealkiri {
+    background-image: url('/assets/images/talv/winter-4680354_1920.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: initial;
+    background-position: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pealkiri {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.värviline_kast {
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+  }
+
+
+.reis_jutt {
+    margin:auto;
+    display: inline-block;
+    background-color: lightblue;
+    vertical-align: top;
+    width: 500px;
+    height: 566px;
+    padding: 10px;
+
+}
+
+.reis_pealkiri {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.reisi_kirjeldus {
+    height: 524px;
+    font-size:large;
+    background-color: white;
+}
+
+.reisi_tekst {
+    margin: 0;
+}
+
+.galerii {
+    display:inline-block;
+    width: 500px;
+    height: 566px;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+.galerii_pilt {
+    width:248px;
+    height: 186px;
+}
+
+.empty {
+    width: 100%;
+    height: 30px;
+    background-color: #D5FFFF;
+}
+
+.lõpp {
+    width: 100%;
+    height: 80px;
+    background-color: #D5FFFF;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.alg {
+    background-color: lightgray;
+}
+
+table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.emoji{
+    font-size: 99px; 
+    margin: 0;
+    display: inline-block;
+}
+
+.link {
+    display: block;
+    transition: 0.5s;
+}
+
+.link:hover {
+    background-color: blue;
+    color: white;
+}
+
+.väike {
+    font-size: 50px;
+}
+
+@media (max-width: 520px) {
+    .talv_pealkiri {
+        width: 520px;
+    }
+    .värviline_kast {
+        width: 520px;
+    }
+  }
+
+@media (min-width: 1000px) {
+    .kast {
+        display: grid;
+        grid-auto-flow: column; 
+        justify-content: center; 
+        align-items: center; 
+    }
+}
+
+
+footer {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
